@@ -21,7 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(Items.EMERALD);
                         pOutput.accept(ModItems.EMERALD_SWORD.get());
-                        //pOutput.accept(ModItems.other.get());
+                        //pOutput.accept(ModItems.other.get()); For another items
 
                     }))
                     .build());
